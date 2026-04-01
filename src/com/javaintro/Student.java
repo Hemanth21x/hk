@@ -1,4 +1,5 @@
-package myPackage;
+package com.javaintro;
+;
 
 public class Student {
 	int s_id ;
