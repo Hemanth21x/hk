@@ -21,7 +21,7 @@ public class Person {
 		Person obj = new Person("Hemanth",22);
 		obj.display();
 		
-		Person obj2 = new Person("Hemanth",22);
+		Person obj2 = new Person("bajii",22);
 		obj2.display();
 	     
 	}
