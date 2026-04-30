@@ -4,6 +4,8 @@ public class Swap {
 	
 
 	public static void main(String[] args) {
+		
+		//without temp var
 		int a=10;
 		int b=5; 
 		
@@ -12,6 +14,9 @@ public class Swap {
 		System.out.println("b: "+b);
 		a= a-b;
 		System.out.println("a: "+a);
+		
+		
+		//using temp var 
 		//int temp=a;
 		//System.out.println(temp);
 		//a=b;
