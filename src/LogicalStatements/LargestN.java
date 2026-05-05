@@ -17,7 +17,7 @@ public class LargestN {
 		int c = sc.nextInt();
 
 		if (a == b && b == c) {
-			System.out.println("Given numbers are same");
+			System.out.println("Given numbers are Same");
 			return;
 		} else {
 			if (a > b) {
