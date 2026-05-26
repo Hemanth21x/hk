@@ -5,9 +5,9 @@ public class Mul {
 	
 	static void ForInt(int n) {
 		for(int i =1;i<=n;i++) {
-			  int mul = n*i;
-		System.out.println(" Mul are : "+mul);
+			  System.out.println(n*i);
 		}
+		
 	}
 	public static void main() {
 	Scanner sc = new Scanner(System.in);
@@ -15,6 +15,8 @@ public class Mul {
 	System.out.println("Enter a number : ");
 	int n = sc.nextInt();
 	
+	
 	ForInt(n);
- }
+
+}
 }

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Calculator {
 
 	public static void main(String[] args) {
-Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Enter the first number : ");
 	    int a = sc.nextInt();
@@ -31,5 +31,6 @@ Scanner sc = new Scanner(System.in);
 	  }else {
 		 System.out.println("error!");
 	  }
+	    sc.close();
    }
 }

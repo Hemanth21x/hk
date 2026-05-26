@@ -7,7 +7,7 @@ public class Str {
 		Scanner sc=new Scanner(System.in);
 		
 		System.out.println("Enter a charcter : ");
-		char ch= sc.next().charAt(0);
+		char ch= sc.next().charAt(1);
 		
 		
 		if(ch>='a' && ch<='z') {
@@ -21,6 +21,6 @@ public class Str {
 		}else {
 			 System.out.println("it is a Special character");
 		}
-		
+		sc.close();
 	}
 }

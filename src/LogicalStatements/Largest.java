@@ -22,6 +22,6 @@ public class Largest {
 	    }else {
 	    	System.out.println("c is greater");
 	    }
-
+     sc.close();
 }
 }

@@ -6,7 +6,7 @@ public class ReverseNo {
 
 	public static void main(String[] args) {
      Scanner sc = new Scanner(System.in);
-		
+		 
 		System.out.println("Enter a entry number : ");
 		int n = sc.nextInt();
 		

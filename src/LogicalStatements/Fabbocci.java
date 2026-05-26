@@ -22,7 +22,7 @@ public class Fabbocci {
 		    		break;
 		    	}
 		    	if(n3>=a) {
-		    		System.out.print(" "+n3);
+		    		System.out.print(" "+n3); 
 		    	}
 		    	n1=n2;
 		    	n2=n3;

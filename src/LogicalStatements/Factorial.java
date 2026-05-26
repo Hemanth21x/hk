@@ -13,5 +13,6 @@ public class Factorial {
 		factorial=i*factorial;
 	}
 	System.out.println("the factorial are : "+factorial);
+	sc.close();
 	}
 }

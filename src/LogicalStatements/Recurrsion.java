@@ -25,7 +25,7 @@ public class Recurrsion {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Enter a entry number : ");
+		System.out.println("Enter a number : ");
 		int n = sc.nextInt();
 		
 	     EvenOdd(n);
@@ -33,7 +33,7 @@ public class Recurrsion {
 	     System.out.println("Factorial value of given number : "+rec);
 		
 	    
-
+sc.close();
 	}
 
 }
