@@ -3,7 +3,7 @@ package com.array;
 public class TestbubbleA {
 
 	public static void main(String[] args) {
-		int [] arr= {9,3,9,8,3,2,9,9,7,5};
+		int [] arr= {2,1,70,5,8,6};
 		int temp=0;
 		System.out.println("Assending Array!");
 		for(int i =0;i<arr.length-1;i++){
@@ -16,7 +16,8 @@ public class TestbubbleA {
 					for (int a:arr) {
 						System.out.print(a+" ");
 						
-					}System.err.println();
+					}
+					System.err.println();
 				}
 			}
 		}
