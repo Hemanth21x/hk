@@ -27,7 +27,7 @@ public class TestDemo06 {
 			count++;
 			n=n/10;
 		}
-//		n=temp;
+		n=temp;
 		while(n>0) {
 			r=n%10;
 			sum=sum+(int)Math.pow(r,count);
