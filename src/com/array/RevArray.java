@@ -21,7 +21,6 @@ public class RevArray {
 			System.out.print(a[i]+" ");
 		}
 	
-	
 		sc.close();
 
 	}
